@@ -9,8 +9,7 @@ public class ByteOpern {
 		byte b = (byte) i;
 		
 		System.out.println( b & 0xFF);
-		System.out.println(b);
-		
+		System.out.println(b);		
 	} 
 
 }
