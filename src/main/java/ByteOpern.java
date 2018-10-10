@@ -10,6 +10,7 @@ public class ByteOpern {
 		
 		System.out.println( b & 0xFF);
 		System.out.println(b);
+		
 	} 
 
 }
