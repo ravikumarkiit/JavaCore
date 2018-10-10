@@ -1,7 +1,11 @@
 package inhe;
 
-public class Y implements X{
+public class Y implements X {
 
+	public Y(String id) {
+//		super(id);
+	}
+	
 	public Y() {
 		System.out.println("Y cons");
 		show();
@@ -13,12 +17,12 @@ public class Y implements X{
 	
 	public static void main(String[] args) {
 		X x = new Y();
-		x.X();
+		x.toDo();
 	}
 
 	@Override
-	public void X() {
-		System.out.println("a");
+	public void toDo() {
+		System.out.println("toDo");
 	}
 
 }

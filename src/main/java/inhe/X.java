@@ -2,5 +2,5 @@ package inhe;
 
 public interface X {
 	
-	public void X();
+	public void toDo();
 }
